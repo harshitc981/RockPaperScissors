@@ -1,0 +1,145 @@
+body{
+  background-color: #E7F6F2;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 10px;
+  padding-top: 20px;
+}
+
+h2{
+  font-family: 'Sacramento', cursive;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #395B64;
+  font-size: 2rem;
+}
+
+.main{
+  background-color: #A5C9CA;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding-top: 15px;
+  padding-bottom: 1px;
+}
+
+.player{
+  align-content: center;
+  background-color: #A5C9CA;
+  display: inline-block;
+  margin: 20px auto;
+  border-style: solid;
+  border-width: 5px;
+  height: 400px;
+  width: 400px;
+  position: absolute;
+  left: 300px;
+  border-radius: 10px;
+}
+
+.comp{
+  background-color: #A5C9CA;
+  display: inline-block;
+  margin: 20px auto;
+  height: 400px;
+  width: 400px;
+  border-style: solid;
+  border-width: 5px;
+  position: absolute;
+  right: 300px;
+  border-radius: 10px;
+}
+
+.btn{
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  color: #A5C9CA;
+  border-radius: 5px;
+  height: 40px;
+  width: 80px;
+}
+
+.img{
+  align-content: center;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  border: solid 3px;
+  height: 200px;
+  width: 200px;
+  display: block;
+  position: relative;
+  left: 100px;
+  bottom: 20px;
+  background-color: #E7F6F2;
+}
+
+.rock{
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  left: 40px;
+}
+
+.paper{
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  left: 160px;
+}
+
+.scissors{
+  font-weight: bold;
+  color: black;
+  position: absolute;
+  right: 38px;
+  width: 90px;
+}
+
+.scoreboard{
+  text-align: center;
+  display: inline;
+  height: 50px;
+  width: 200px;
+  border: solid 3px;
+  border-radius: 5px;
+  position: absolute;
+  right: 650px;
+  top: 650px;
+  padding: 15px 20px;
+}
+
+.badges{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #A5C9CA;
+  border: solid 2px;
+  border-radius: 5px;
+  color: #24272E;
+  font-size: 1rem;
+  padding: 8px 10px;
+  font-weight: bold;
+}
+
+#user-label{
+  position: absolute;
+  right: 220px;
+}
+
+#computer-label{
+  position: absolute;
+  left: 220px;
+}
+
+.score{
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+#status{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 5px;
+  font-weight: bold;
+}
